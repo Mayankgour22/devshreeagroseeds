@@ -7,7 +7,7 @@ const categories = [
     id: 1,
     title: "Elite Soybean",
     subtitle: "Kharif Champion",
-    image: "https://images.unsplash.com/photo-1594759074031-62bc7f4c9447?q=80&w=2000&auto=format&fit=crop",
+    image: "https://plus.unsplash.com/premium_photo-1667104953331-5079a4917901?q=80&w=2000&auto=format&fit=crop",
     varieties: ["JS 2034", "JS 2098"],
     description: "Scientific precision meets high harvest count for the monsoon season."
   },

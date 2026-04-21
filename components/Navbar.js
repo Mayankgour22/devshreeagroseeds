@@ -25,15 +25,15 @@ export default function Navbar() {
   return (
     <div className={`fixed left-0 right-0 z-[2000] px-8 max-[768px]:px-4 transition-all duration-600 ease-[cubic-bezier(0.23,1,0.32,1)] ${scrolled ? 'top-[15px]' : 'top-[30px]'}`}>
       <nav className={`relative z-[2010] max-w-[1400px] mx-auto bg-linen/95 backdrop-blur-[10px] border border-black/10 flex items-center justify-between rounded-[4px] shadow-md transition-all duration-600 ease-[cubic-bezier(0.23,1,0.32,1)] ${scrolled ? 'h-16 px-8' : 'h-20 px-12'} max-[992px]:px-6 max-[768px]:h-16`}>
-        <Link href="/" className="flex items-center gap-[15px] no-underline">
+        <Link href="/" className="flex items-center gap-[12px] no-underline">
           <img 
             src="/images/Logo.jpeg" 
             alt="Dev Shree Logo" 
-            className="w-10 h-10 object-contain rounded-sm max-[768px]:w-8 max-[768px]:h-8"
+            className="w-12 h-12 object-contain rounded-sm max-[768px]:w-10 max-[768px]:h-10 border border-black/5"
           />
           <div className="flex flex-col">
-            <span className="font-prata text-[1.2rem] text-primary leading-none max-[768px]:text-[1rem]">Dev Shree</span>
-            <span className="text-[0.65rem] uppercase tracking-[0.3em] text-secondary font-extrabold max-[768px]:text-[0.55rem] max-[768px]:tracking-[0.2em]">Agro Seeds</span>
+            <span className="font-prata text-[1.4rem] text-primary leading-none max-[768px]:text-[1.1rem]">Dev Shree</span>
+            <span className="text-[0.6rem] uppercase tracking-[0.2em] text-secondary font-extrabold max-[768px]:text-[0.5rem]">Agro Seeds</span>
           </div>
         </Link>
 

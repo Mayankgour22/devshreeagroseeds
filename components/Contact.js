@@ -24,7 +24,7 @@ export default function Contact() {
                 <div className="w-[50px] h-[50px] bg-white/5 border border-white/10 flex items-center justify-center text-secondary shrink-0"><Mail size={18} /></div>
                 <div>
                   <label className="block text-[0.7rem] uppercase tracking-[0.15em] text-secondary font-extrabold mb-1">Digital Correspondence</label>
-                  <a href="mailto:devshreeagroseeds@gmail.com" className="font-prata text-[1.4rem] text-white no-underline">devshreeagroseeds@gmail.com</a>
+                  <a href="mailto:devshreeagroseeds@gmail.com" className="font-prata text-[1.4rem] text-white no-underline break-words max-[768px]:text-[1.1rem]">devshreeagroseeds@gmail.com</a>
                 </div>
               </div>
               <div className="flex items-start gap-5">
