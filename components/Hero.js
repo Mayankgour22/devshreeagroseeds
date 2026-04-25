@@ -49,15 +49,15 @@ export default function Hero() {
           <div className="relative group max-[992px]:hidden">
             <div className="relative h-[600px] border-[20px] border-white/5 overflow-hidden">
                <img 
-                 src="https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?q=80&w=2000&auto=format&fit=crop" 
+                 src="/images/JS2303.jpeg" 
                  className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" 
-                 alt="Premium Wheat"
+                 alt="JS 2303 Soyabean"
                />
                <div className="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-all"></div>
             </div>
             <div className="absolute -bottom-10 -left-10 bg-white p-8 shadow-2xl transition-transform group-hover:-translate-y-4">
               <p className="font-prata text-primary text-[1.2rem] mb-2">Elite Variety</p>
-              <p className="text-secondary text-[0.7rem] font-bold uppercase tracking-[0.1em]">HI-1544 Purna Wheat</p>
+              <p className="text-secondary text-[0.7rem] font-bold uppercase tracking-[0.1em]">JS 2303 Soyabean Variety</p>
             </div>
           </div>
 
