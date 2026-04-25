@@ -5,9 +5,9 @@ import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  title: 'Dev Shree Agro Seeds - Masterful Cultivation',
-  description: 'Premium agricultural seeds for Kharif and Rabi seasons. High-yield, certified seeds for farmers in Madhya Pradesh. Buy Soybean, Wheat, Gram, and more.',
-  keywords: 'agro seeds, dewas seeds, chidawad agro, soybean seeds, wheat seeds, rabi seeds, kharif seeds, dev shree seeds',
+  title: 'Dev Shree Agro Seeds | Premium Soybean, Wheat & Gram Seeds by Devendra Palatiya',
+  description: 'Dev Shree Agro Seeds, founded by Devendra Palatiya in Dewas, M.P., specializes in high-yield soybean (JS 2303, JS 2433, NRC 150), wheat (HI-1544, HI-1650), and gram varieties. Certified quality for Indian farmers.',
+  keywords: 'Devendra Palatiya seeds, soybean variety JS 2433, JS 2303 soybean, NRC 150 seeds, certified wheat seeds Dewas, agro seeds Madhya Pradesh, high yield gram seeds, agriculture seeds company India',
   icons: {
     icon: '/images/Logo.jpeg',
   },
