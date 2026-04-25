@@ -31,8 +31,8 @@ export default function Home() {
                 Masterful Selection
               </h2>
               <p className="text-[1.2rem] mb-10 leading-[1.8] max-[768px]:text-[1rem] max-[768px]:mb-8">
-                Dev Shree Agro Seeds does not just sell products; we provide the foundation for your livestock and livelihood. 
-                Our selection process is a meticulous blend of ancestral wisdom and modern agrarian science, 
+                As a leading name for <strong>premium agro seeds in India</strong>, Dev Shree Agro Seeds (founded by Devendra Palatiya) provides the foundation for your livestock and livelihood. 
+                Our selection process for the <strong>best seeds in MP</strong> is a meticulous blend of ancestral wisdom and modern agrarian science, 
                 ensuring that every seed carries the potential for an elite harvest.
               </p>
               

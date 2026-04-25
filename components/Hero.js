@@ -19,13 +19,13 @@ export default function Hero() {
         <div className="grid grid-cols-[1.5fr_1fr] items-center gap-24 max-[1200px]:gap-12 max-[992px]:grid-cols-1 max-[992px]:text-center">
           
           <div className="fade-in">
-            <span className="bg-secondary text-white text-[0.7rem] font-bold uppercase tracking-[0.3em] px-4 py-2 mb-8 inline-block">ISO 9001:2015 Certified Seed Company</span>
+            <span className="bg-secondary text-white text-[0.7rem] font-bold uppercase tracking-[0.3em] px-4 py-2 mb-8 inline-block">ISO 9001:2015 Certified Agro Seeds in India</span>
             <h1 className="text-white text-[clamp(2.5rem,8vw,5.5rem)] mb-8 leading-[1.1] font-prata max-[768px]:text-[2.5rem]">
               शुद्धता और पैदावार का <br />
               <span className="italic text-secondary">अटूट</span> विश्वास
             </h1>
             <p className="text-white/80 max-w-[600px] mb-14 text-[1.4rem] leading-[1.6] max-[992px]:mx-auto max-[768px]:text-[1.1rem]">
-              देव श्री एग्रो सीड्स: हर खेत बनेगा मिसाल, हर किसान होगा खुशहाल। हम लाए हैं आपके लिए विज्ञान और परंपरा का बेहतरीन संगम।
+              Dev Shree Agro Seeds: Best seeds supplier in MP. हर खेत बनेगा मिसाल, हर किसान होगा खुशहाल। हम लाए हैं आपके लिए विज्ञान और परंपरा का बेहतरीन संगम।
             </p>
             
             <div className="flex items-center gap-8 max-[1200px]:flex-col max-[1200px]:items-start max-[992px]:items-center max-[992px]:gap-10">
