@@ -2,6 +2,7 @@ import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import ProductSection from '@/components/ProductSection';
 import Contact from '@/components/Contact';
+import QualityAssurance from '@/components/QualityAssurance';
 import Footer from '@/components/Footer';
 
 export const metadata = {
@@ -65,21 +66,10 @@ export default function Home() {
       </section>
 
       <ProductSection />
+      <QualityAssurance />
       <Contact />
       <Footer />
 
-      {/* Floating WhatsApp Action: Artisanal Style */}
-      <a 
-        href="https://wa.me/918349798177" 
-        target="_blank" 
-        rel="noreferrer"
-        className="fixed bottom-10 right-10 max-[768px]:bottom-6 max-[768px]:right-6 bg-primary text-white w-[70px] h-[70px] max-[768px]:w-[60px] max-[768px]:h-[60px] flex items-center justify-center shadow-2xl z-[999] border-2 border-secondary"
-        aria-label="Connect on WhatsApp"
-      >
-        <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" strokeWidth="2" className="max-[768px]:w-[24px] max-[768px]:h-[24px]">
-          <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 1 1-7.6-7.6 8.38 8.38 0 0 1 3.8.9L22 4l-2.1 4.6z" />
-        </svg>
-      </a>
     </main>
   );
 }

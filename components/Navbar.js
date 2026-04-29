@@ -39,9 +39,10 @@ export default function Navbar() {
 
         {/* Desktop Navigation */}
         <div className="flex items-center gap-10 max-[992px]:hidden">
-          <Link href="/products" className="text-[0.75rem] font-extrabold uppercase tracking-[0.1em] text-primary no-underline relative after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[1px] after:bg-secondary after:transition-all after:duration-300 hover:after:w-full">Our Seeds</Link>
+          <Link href="/products" className="text-[0.75rem] font-extrabold uppercase tracking-[0.1em] text-primary no-underline relative after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[1px] after:bg-secondary after:transition-all after:duration-300 hover:after:w-full">Products</Link>
           <Link href="/process" className="text-[0.75rem] font-extrabold uppercase tracking-[0.1em] text-primary no-underline relative after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[1px] after:bg-secondary after:transition-all after:duration-300 hover:after:w-full">Our Process</Link>
           <Link href="/success" className="text-[0.75rem] font-extrabold uppercase tracking-[0.1em] text-primary no-underline relative after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[1px] after:bg-secondary after:transition-all after:duration-300 hover:after:w-full">Success Stories</Link>
+          <Link href="/about" className="text-[0.75rem] font-extrabold uppercase tracking-[0.1em] text-primary no-underline relative after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[1px] after:bg-secondary after:transition-all after:duration-300 hover:after:w-full">About Us</Link>
           <Link href="/careers" className="text-[0.75rem] font-extrabold uppercase tracking-[0.1em] text-primary no-underline relative after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[1px] after:bg-secondary after:transition-all after:duration-300 hover:after:w-full">Careers</Link>
           <Link href="#contact" className="bg-primary text-white py-[12px] px-8 text-[0.75rem] font-bold uppercase tracking-[0.1em] no-underline transition-all duration-300 hover:bg-secondary rounded-[2px] ml-4">Get In Touch</Link>
         </div>
@@ -60,9 +61,10 @@ export default function Navbar() {
       <div className={`fixed inset-0 bg-primary z-[2005] flex items-center justify-center transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] ${isOpen ? 'opacity-100 pointer-events-auto translate-y-0' : 'opacity-0 pointer-events-none -translate-y-10'}`}>
         <div className="flex flex-col gap-8 text-center pt-20">
           <Link href="/" onClick={() => setIsOpen(false)} className="font-prata text-[2rem] text-white no-underline hover:text-secondary transition-colors">Home</Link>
-          <Link href="/products" onClick={() => setIsOpen(false)} className="font-prata text-[2rem] text-white no-underline hover:text-secondary transition-colors">Seed Catalog</Link>
+          <Link href="/products" onClick={() => setIsOpen(false)} className="font-prata text-[2rem] text-white no-underline hover:text-secondary transition-colors">Products</Link>
           <Link href="/process" onClick={() => setIsOpen(false)} className="font-prata text-[2rem] text-white no-underline hover:text-secondary transition-colors">How We Work</Link>
           <Link href="/success" onClick={() => setIsOpen(false)} className="font-prata text-[2rem] text-white no-underline hover:text-secondary transition-colors">Success Stories</Link>
+          <Link href="/about" onClick={() => setIsOpen(false)} className="font-prata text-[2rem] text-white no-underline hover:text-secondary transition-colors">About Us</Link>
           <Link href="/careers" onClick={() => setIsOpen(false)} className="font-prata text-[2rem] text-white no-underline hover:text-secondary transition-colors">Careers</Link>
           <Link href="#contact" onClick={() => setIsOpen(false)} className="font-prata text-[2rem] text-white no-underline hover:text-secondary transition-colors">Contact</Link>
           

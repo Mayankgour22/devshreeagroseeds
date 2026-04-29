@@ -24,9 +24,10 @@ export default function Footer() {
           <div className="flex gap-[100px] max-[768px]:gap-10 max-[768px]:flex-wrap">
             <div className="flex flex-col gap-3">
               <h4 className="text-[0.8rem] uppercase tracking-[0.2em] text-primary mb-[30px] font-bold">Explore</h4>
-              <a href="#home" className="no-underline text-[0.95rem] text-textBody transition-colors duration-300 hover:text-secondary">The Origin</a>
-              <a href="#about" className="no-underline text-[0.95rem] text-textBody transition-colors duration-300 hover:text-secondary">Story</a>
-              <a href="#products" className="no-underline text-[0.95rem] text-textBody transition-colors duration-300 hover:text-secondary">Catalog</a>
+              <a href="/" className="no-underline text-[0.95rem] text-textBody transition-colors duration-300 hover:text-secondary">Home</a>
+              <a href="/about" className="no-underline text-[0.95rem] text-textBody transition-colors duration-300 hover:text-secondary">About Us</a>
+              <a href="/products" className="no-underline text-[0.95rem] text-textBody transition-colors duration-300 hover:text-secondary">Products</a>
+              <a href="/careers" className="no-underline text-[0.95rem] text-textBody transition-colors duration-300 hover:text-secondary">Careers</a>
             </div>
             <div className="flex flex-col gap-3">
               <h4 className="text-[0.8rem] uppercase tracking-[0.2em] text-primary mb-[30px] font-bold">Categories</h4>
